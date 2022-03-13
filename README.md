@@ -1,2 +1,2 @@
-#This is my portfolio website
-#marcinfreelancer.pl
+# This is my portfolio website
+# marcinfreelancer.pl
