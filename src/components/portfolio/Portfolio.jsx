@@ -4,6 +4,8 @@ import IMG1 from "../../assets/portfolio1.png";
 import IMG2 from "../../assets/portfolio2.png";
 import IMG3 from "../../assets/portfolio3.png";
 import IMG4 from "../../assets/portfolio4.png";
+import IMG5 from "../../assets/portfolio5.png";
+import IMG6 from "../../assets/portfolio6.png";
 
 function Portfolio() {
   return (
@@ -93,6 +95,50 @@ function Portfolio() {
             </a>
             <a
               href="http://cryptocurrency.freecluster.eu/"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Go Live
+            </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG5} alt="" />
+          </div>
+          <h3>Gym Stopwatch Website</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/xmarcysx/Stopwatch-For-Gym-JS"
+              className="btn"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="http://stopwatch.infinityfreeapp.com/"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Go Live
+            </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG6} alt="" />
+          </div>
+          <h3>Parallax Scrolling Efect</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/xmarcysx/Parallax-Scrolling-JS"
+              className="btn"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="http://parallax.infinityfreeapp.com/"
               className="btn btn-primary"
               target="_blank"
             >
