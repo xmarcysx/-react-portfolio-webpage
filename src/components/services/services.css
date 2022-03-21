@@ -76,7 +76,7 @@
   }
 
   .service__list p {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 
@@ -88,7 +88,7 @@
   }
 
   .service__list p {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 
@@ -99,7 +99,7 @@
     text-align: center;
   }
   .service__list p {
-    font-size: 1.2rem;
+    font-size: 1em;
   }
 }
 
@@ -135,6 +135,6 @@
     margin-bottom: 0.5rem;
   }
   .service__list p {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 }

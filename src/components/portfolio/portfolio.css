@@ -57,7 +57,7 @@
 
 @media screen and (max-width: 1024px) and (orientation: landscape) {
   .portfolio__container {
-    grid-template-columns: 40% 40%;
+    grid-template-columns: 50% 50%;
     gap: 1rem;
     justify-content: center;
   }

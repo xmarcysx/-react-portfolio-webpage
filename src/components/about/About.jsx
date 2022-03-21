@@ -13,9 +13,6 @@ function About() {
 
       <div className="container about__container-section">
         <div className="about__container">
-          <div className="about__me">
-            <img src={ME} alt="About_Image" />
-          </div>
           <div className="about__content">
             <div className="about__cards">
               <article className="about__card">

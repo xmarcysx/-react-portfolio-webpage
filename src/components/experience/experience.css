@@ -97,7 +97,7 @@
   }
 
   .experience__details {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 
@@ -119,7 +119,7 @@
   }
 
   .experience__details {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 }
 
@@ -139,7 +139,7 @@
     row-gap: 0.5rem;
   }
   .experience__details {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
 
@@ -167,8 +167,7 @@
   .experience__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 0rem;
-    margin-top: -45px;
+    gap: 1rem;
   }
 
   .experience__container > div {
@@ -176,7 +175,7 @@
   }
 
   .experience__container > div h3 {
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin-bottom: 1rem;
     margin-bottom: -5px;
   }
@@ -188,6 +187,6 @@
   .experience__details {
     display: flex;
     gap: 0.5rem;
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 }
