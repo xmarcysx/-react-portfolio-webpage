@@ -6,6 +6,7 @@ import IMG3 from "../../assets/portfolio3.png";
 import IMG4 from "../../assets/portfolio4.png";
 import IMG5 from "../../assets/portfolio5.png";
 import IMG6 from "../../assets/portfolio6.png";
+import IMG7 from "../../assets/portfolio7.png";
 
 function Portfolio() {
   return (
@@ -116,7 +117,7 @@ function Portfolio() {
               Github
             </a>
             <a
-              href="http://stopwatch.infinityfreeapp.com/"
+              href="http://stoper.infinityfreeapp.com/"
               className="btn btn-primary"
               target="_blank"
             >
@@ -138,7 +139,29 @@ function Portfolio() {
               Github
             </a>
             <a
-              href="http://parallax.infinityfreeapp.com/"
+              href="http://paralax.freecluster.eu/"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Go Live
+            </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG7} alt="" />
+          </div>
+          <h3>Extra Navbar</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/xmarcysx/ExtraNavbar"
+              className="btn"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="https://marcysiox.000webhostapp.com/"
               className="btn btn-primary"
               target="_blank"
             >
