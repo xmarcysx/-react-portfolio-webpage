@@ -47,7 +47,7 @@
 @media screen and (max-width: 1024px) {
   .services__container {
     gap: 2rem;
-    width: 60%;
+    width: 80%;
     margin: 0 auto;
   }
 

@@ -76,28 +76,6 @@
   font-size: 1rem;
 }
 
-@media screen and (max-width: 1024px) and (orientation: landscape) {
-  .about__me {
-    display: none;
-  }
-
-  .about__card {
-    display: none;
-  }
-
-  .about__card small {
-    display: none;
-  }
-
-  .about__content p {
-    padding-top: 12rem;
-    font-size: 0.1rem;
-  }
-  .about__content a {
-    display: none;
-  }
-}
-
 /* ============================ MEDIA QUERIES (MEDIUM DEVICES): =================================== */
 @media screen and (max-width: 1024px) {
   .about__container {
@@ -105,28 +83,35 @@
     gap: 0;
     height: 100vh;
   }
+}
 
+@media screen and (max-width: 900px) {
   .about__me {
-    width: 45%;
-    margin: 2rem auto 0;
+    width: 40%;
+    margin: 0 auto 3rem;
   }
 
-  .about__cards h5 {
-    font-size: 1.5rem;
+  .about__cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
   }
 
-  .about__cards small {
-    font-size: 1.5rem;
+  .about__card h5 {
+    font-size: 1rem;
+  }
+
+  .about__card small {
+    font-size: 1rem;
   }
 
   .about__content {
-    margin-top: -15rem;
+    text-align: center;
+    margin-top: -17rem;
   }
 
   .about__content p {
-    margin: 1.5rem;
-    text-align: center;
-    font-size: 1.5rem;
+    margin: 1.5rem 0.5rem 1.5rem 0.5rem;
+    font-size: 1rem;
   }
 
   .about__content .btn {
@@ -134,21 +119,45 @@
     left: 50%;
     transform: translateX(-50%);
     padding: 0.75rem 1.2rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 750px) {
   .about__me {
     width: 40%;
+    margin: 0 auto 3rem;
   }
 
-  .about__card {
-    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  .about__cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+  }
+
+  .about__card h5 {
+    font-size: 1rem;
+  }
+
+  .about__card small {
+    font-size: 1rem;
   }
 
   .about__content {
-    margin-top: -15rem;
+    text-align: center;
+    margin-top: -17rem;
+  }
+
+  .about__content p {
+    margin: 1.5rem 0.5rem 1.5rem 0.5rem;
+    font-size: 1rem;
+  }
+
+  .about__content .btn {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0.75rem 1.2rem;
+    font-size: 1rem;
   }
 }
 
@@ -253,5 +262,27 @@
   .about__content p {
     margin: 1rem 0 1rem;
     color: var(--color-light);
+  }
+}
+
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+  .about__me {
+    display: none;
+  }
+
+  .about__card {
+    display: none;
+  }
+
+  .about__card small {
+    display: none;
+  }
+
+  .about__content p {
+    padding-top: 15rem;
+    font-size: 1rem;
+  }
+  .about__content a {
+    display: none;
   }
 }

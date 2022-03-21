@@ -79,14 +79,25 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .experience__container {
-    gap: 1rem;
+    gap: 1.5rem;
   }
 
   .experience__container > div {
     width: 100%;
-    padding: 2rem 1rem;
+    padding: 0.5rem 0.5rem;
+  }
+  .experience__container > div h3 {
+    margin-bottom: 0rem;
+  }
+
+  .experience__content {
+    row-gap: 0.5rem;
+  }
+
+  .experience__details {
+    font-size: 1.2rem;
   }
 }
 
