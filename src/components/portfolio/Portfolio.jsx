@@ -7,6 +7,7 @@ import IMG4 from "../../assets/portfolio4.png";
 import IMG5 from "../../assets/portfolio5.png";
 import IMG6 from "../../assets/portfolio6.png";
 import IMG7 from "../../assets/portfolio7.png";
+import IMG8 from "../../assets/portfolio8.png";
 
 function Portfolio() {
   return (
@@ -162,6 +163,28 @@ function Portfolio() {
             </a>
             <a
               href="https://marcysiox.000webhostapp.com/"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Go Live
+            </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG8} alt="" />
+          </div>
+          <h3>Pervious Portfolio</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/xmarcysx/myPerviousPortfolio"
+              className="btn"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="http://pervious-portfolio.freecluster.eu/"
               className="btn btn-primary"
               target="_blank"
             >
