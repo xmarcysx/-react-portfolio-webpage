@@ -23,7 +23,7 @@ function About() {
               <article className="about__card">
                 <VscFolderLibrary className="about__icon" />
                 <h5>Projekty</h5>
-                <small>8</small>
+                <small>16</small>
               </article>
             </div>
             <p>

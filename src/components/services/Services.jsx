@@ -14,6 +14,13 @@ function Services() {
               <li>
                 <BiCheck className="service__list-icon" />
                 <p>
+                  Wizytówki, strony firmowe, serwisy internetowe, portale
+                  internetowe, blogi, landing pages
+                </p>
+              </li>
+              <li>
+                <BiCheck className="service__list-icon" />
+                <p>
                   Programowanie stron internetowych z wkorzystaniem
                   najnowocześniejszych technologii
                 </p>
@@ -24,7 +31,7 @@ function Services() {
               </li>
               <li>
                 <BiCheck className="service__list-icon" />
-                <p>Estetyczne i kreatywne Web Serwisy</p>
+                <p>Responsywne, estetyczne i kreatywne Web Serwisy</p>
               </li>
               <li>
                 <BiCheck className="service__list-icon" />

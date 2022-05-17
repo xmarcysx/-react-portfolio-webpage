@@ -8,6 +8,10 @@ import IMG5 from "../../assets/portfolio5.png";
 import IMG6 from "../../assets/portfolio6.png";
 import IMG7 from "../../assets/portfolio7.png";
 import IMG8 from "../../assets/portfolio8.png";
+import IMG9 from "../../assets/portfolio9.png";
+import IMG10 from "../../assets/portfolio10.png";
+import IMG11 from "../../assets/portfolio11.png";
+import IMG12 from "../../assets/portfolio12.png";
 
 function Portfolio() {
   return (
@@ -18,9 +22,31 @@ function Portfolio() {
       <div className="container portfolio__container">
         <article className="portfolio__item">
           <div className="portfolio__item-image">
+            <img src={IMG9} alt="" />
+          </div>
+          <h3>F1Blog-PHP</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/xmarcysx/F1Blog-PHP"
+              className="btn"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="https://marcysiox.000webhostapp.com/F1Blog-PHP/public/"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Go Live
+            </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
             <img src={IMG1} alt="" />
           </div>
-          <h3>To-Do & Pomodoro</h3>
+          <h3>To-Do & Pomodoro React</h3>
           <div className="portfolio__item-cta">
             <a
               href="https://github.com/xmarcysx/Pomo-ToDo-ReactApp"
@@ -31,6 +57,72 @@ function Portfolio() {
             </a>
             <a
               href="https://xmarcysx.github.io/Pomo-ToDo-ReactApp/"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Go Live
+            </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG10} alt="" />
+          </div>
+          <h3>ToDoList-JS</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/xmarcysx/todolist-js"
+              className="btn"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="http://todolist-js.infinityfreeapp.com"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Go Live
+            </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG11} alt="" />
+          </div>
+          <h3>BeatMaker</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/xmarcysx/beatmaker-js"
+              className="btn"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="http://beatmaker.infinityfreeapp.com"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Go Live
+            </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG12} alt="" />
+          </div>
+          <h3>Colors Project</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/xmarcysx/colors-js"
+              className="btn"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="http://colorsproject.infinityfreeapp.com"
               className="btn btn-primary"
               target="_blank"
             >
@@ -52,7 +144,7 @@ function Portfolio() {
               Github
             </a>
             <a
-              href="http://mysocialmedia.infinityfreeapp.com/"
+              href="http://socialmediaa.infinityfreeapp.com"
               className="btn btn-primary"
               target="_blank"
             >
@@ -152,17 +244,17 @@ function Portfolio() {
           <div className="portfolio__item-image">
             <img src={IMG7} alt="" />
           </div>
-          <h3>Extra Navbar</h3>
+          <h3>Parallax Girl</h3>
           <div className="portfolio__item-cta">
             <a
-              href="https://github.com/xmarcysx/ExtraNavbar"
+              href="https://github.com/xmarcysx/paralax2"
               className="btn"
               target="_blank"
             >
               Github
             </a>
             <a
-              href="https://marcysiox.000webhostapp.com/"
+              href="http://parallax2.infinityfreeapp.com/"
               className="btn btn-primary"
               target="_blank"
             >
