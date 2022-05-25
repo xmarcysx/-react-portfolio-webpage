@@ -8,6 +8,8 @@ header {
   text-align: center;
   height: 100%;
   position: relative;
+  opacity: 0;
+  transform: translateY(-300px);
 }
 
 /* ====================== CTA ======================== */
@@ -28,6 +30,8 @@ header {
   position: absolute;
   left: 0;
   bottom: 3rem;
+  opacity: 0;
+  transform: translateY(-300px);
 }
 
 .header__socials::after {

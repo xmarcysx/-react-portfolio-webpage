@@ -4,11 +4,20 @@ import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
 import { BiBook, BiMessageSquareDetail } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
 import { useState } from "react";
+import { gsap } from "gsap";
 
+const { useEffect, useRef } = React;
 function Nav() {
   const [activeNav, setActiveNav] = useState("#");
+
+  const tl = useRef();
+  useEffect(() => {
+    tl.current = gsap
+      .timeline()
+      .to(".nav", { opacity: 1, y: "0px", duration: 1.5 });
+  });
   return (
-    <nav>
+    <nav class="nav">
       <a
         href="#"
         onClick={() => setActiveNav("#")}
