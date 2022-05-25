@@ -32,8 +32,8 @@ function About() {
               internetowych w oparciu o nowoczesne technologie oraz rozwojem w
               tym kierunku.
             </p>
-            <a href="#contact" className="btn btn-primary">
-              Porozmawiajmy
+            <a href="#portfolio" className="btn btn-primary">
+              Moje projekty
             </a>
           </div>
         </div>

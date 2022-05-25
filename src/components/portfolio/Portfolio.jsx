@@ -12,6 +12,7 @@ import IMG9 from "../../assets/portfolio9.png";
 import IMG10 from "../../assets/portfolio10.png";
 import IMG11 from "../../assets/portfolio11.png";
 import IMG12 from "../../assets/portfolio12.png";
+import IMG13 from "../../assets/portfolio13.png";
 
 function Portfolio() {
   return (
@@ -57,6 +58,28 @@ function Portfolio() {
             </a>
             <a
               href="https://xmarcysx.github.io/Pomo-ToDo-ReactApp/"
+              className="btn btn-primary"
+              target="_blank"
+            >
+              Go Live
+            </a>
+          </div>
+        </article>
+        <article className="portfolio__item">
+          <div className="portfolio__item-image">
+            <img src={IMG13} alt="" />
+          </div>
+          <h3>Travel Project - JS</h3>
+          <div className="portfolio__item-cta">
+            <a
+              href="https://github.com/xmarcysx/TravelProject-JS"
+              className="btn"
+              target="_blank"
+            >
+              Github
+            </a>
+            <a
+              href="http://travelproject.infinityfreeapp.com"
               className="btn btn-primary"
               target="_blank"
             >
